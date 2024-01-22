@@ -1,4 +1,4 @@
-require_relative '../lib/02_calculator'
+require_relative '../lib/02_calculator.rb'
 
 describe "add" do
   it "adds 0 and 0" do
@@ -15,7 +15,7 @@ describe "add" do
 end
 
 describe "subtract" do
-  it "subtracts numbers" do
+  it "subtract numbers" do
     expect(subtract(10,4)).to eq(6)
   end
 end
